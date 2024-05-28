@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import LoginPage from './LoginPage';
 
-export default async function () {
+export default function Home() {
   return <LoginPage />;
 }
 

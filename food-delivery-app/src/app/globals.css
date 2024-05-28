@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+:root{
+  --dark-bg: #111827;
+  --dark-text-color: #f1f1f1;
+}
+
 *{
   margin: 0px;
   padding: 0px;
@@ -10,6 +15,8 @@
 html,body{
   height: 100%;
   width: 100%;
+  background-color: var(--dark-bg);
+  color: var(--dark-text-color);
 }
 a{
   color: inherit;
